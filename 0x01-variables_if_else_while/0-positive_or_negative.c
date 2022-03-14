@@ -2,9 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*More headers go hear*/
-
-/*betty style doc for function main goes here*/
+/*
+ * main - printing random number outputted if its positive or negative
+ * 
+ * Return: 0
+ */
 
 int main(void)
 {
