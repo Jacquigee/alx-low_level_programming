@@ -3,8 +3,6 @@
 /**
  * print_number - a function that prints an integer
  * @n: the integer
- *
- * Return: Always 0 (Success)
  */
 void print_number(int n)
 {
