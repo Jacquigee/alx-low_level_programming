@@ -4,7 +4,7 @@
  * *_strncat - a function that concatenates two strings
  * @dest: the string
  * @src: the string
- * @n - the int
+ * @n: the int
  *
  * Return: a pointer to the resulting string
  */
