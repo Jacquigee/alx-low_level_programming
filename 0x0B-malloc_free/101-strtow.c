@@ -78,7 +78,7 @@ char **strtow(char *str)
 			if (!in_word++)
 				word_start = str;
 		}
-		str++
+		str++;
 	}
 	ret[words] = 0;
 	return (ret);
