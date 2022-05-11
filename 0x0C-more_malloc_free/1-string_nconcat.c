@@ -22,7 +22,7 @@ int _strlen(char *s)
  * @s2: second string
  * @n: copy first n bytes of s2
  *
- * return: void
+ * Return: void
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
