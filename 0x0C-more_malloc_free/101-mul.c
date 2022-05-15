@@ -27,7 +27,6 @@ int find_len(char *str)
 /**
  * create_xarray - Creates an array of chars and initializes it with
  * the character 'x'. Adds a terminating null byte.
- *
  * @size: The size of the array to be initialized.
  *
  * Description: If there is insufficient space, the
@@ -56,11 +55,11 @@ char *create_xarray(int size)
 /**
  * iterate_zeroes - Iterates through a string of numbers containing
  * leading zeroes until it hits a non-zero number.
+ *
  * @str: The string of numbers to be iterate through.
  *
  * Return: A pointer to the next non-zero element.
  */
-
 char *iterate_zeroes(char *str)
 {
 	while (*str && *str == '0')
@@ -135,6 +134,7 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 		*prod = (num % 10) + '0';
 		tens = num / 10;
 	}
+
 	if (tens)
 		*prod = (tens % 10) + '0';
 }
@@ -188,6 +188,7 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  *
  * Description: If the number of arguments is incorrect or one number
  * contains non-digits, the function exits with a status of 98.
+ *
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
@@ -227,6 +228,7 @@ int main(int argc, char *argv[])
 		if (final_prod[index] != 'x')
 			putchar(final_prod[index]);
 	}
+
 	putchar('\n');
 
 	free(next_prod);
