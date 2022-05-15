@@ -1,15 +1,13 @@
 #include <stdio.h>
 
-int  main(void) __attribute__ ((constructor));
+void jacqui(void) __attribute__ ((constructor));
 
 /**
- * main - check the code
+ * jacqui - my awesome name
  * Return: 0 Always
  */
-int main(void)
+void jacqui(void)
 {
 	printf("You're beat! and yet, you must allow,\n");
 	printf("I bore my house upon my back!\n");
-
-	return (0);
 }
